@@ -1,0 +1,62 @@
+<!-- 14331025_chenkui -->
+
+body {
+	margin:0;
+	padding:0;
+}
+
+#begin, #info {
+	text-align: center;
+	font-weight: bold;
+}
+#begin h1 {
+	font-size: 25px;
+}
+#begin p {
+	font-size: 20px;
+}
+
+#info {
+	position: relative;
+	height: 90px;
+}
+#StartStop, #State {
+	position: absolute;
+	left: 33%;
+}
+#State, #score {
+	top: 40px;
+}
+#info span {
+	position: absolute;
+	right: 37%;
+}
+span input {
+	width: 50px;
+}
+
+#game {
+	width: 24%;
+	height: 220px;
+	margin-left: 35%;
+	-webkit-box-sizing:border-box;
+	border:1px solid #666;
+	border-right: none;
+	border-left: none;
+}
+
+#Instructions {
+	font-weight: bold;
+	font-size: 16px;
+}
+li {
+	list-style-type: decimal; 
+}
+
+#Radio {
+	margin-left: 3%;
+}
+#Radio .mole {
+	width: 7%;
+	height: 30px;
+}
