@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	<head>
+		<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
+		<link href = "Maze.css" type = "text/css" rel = "stylesheet">
+		<script src = "Maze.js" type = "text/javascript">
+		</script>
+	</head>
+	<body>
+		<div id = "mainBody">
+			<div id = "begin">
+                <h1>The Amazing Mouse Maze!</h1>
+                <p>Move your mouse over the "S" to begin.</p>
+                <p id = "state"></p>
+			</div>
+
+			<div id = "gameBody">
+                <div id = "top_wall" name= "Wall" class = "wall"></div>
+                <div id = "left_wall" name= "Wall" class = "wall"></div>
+                <div id = "top_path" class = "path"></div>
+                <div id = "right_wall" name= "Wall" class = "wall"></div>
+                <div id = "left_path" class = "path">
+                	<div id = "start">S</div>
+                </div>
+                <div id = "top_left_path" class = "path"></div>
+                <div id = "top_right_path" class = "path"></div>
+                <div id = "right_path" class = "path">
+                	<div id = "isCheated"></div>
+                	<div id = "end">E</div>
+                </div>
+                <div id = "bottom_wall" name= "Wall" class = "wall"></div>
+                <div id ="middle_wall" name= "Wall" class = "wall"></div>
+            </div>
+            
+            <div id = "tail">
+                <p>The object of this game is to guide the mouse cursorthrough the start area and get the end area.Be sure to avoid the walls:</p>
+                <div id = "example" class = "wall"></div>
+                <p>Good luck!</p>
+			</div>
+		</div>
+	</body>
+</html>
